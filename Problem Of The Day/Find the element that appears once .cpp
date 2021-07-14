@@ -9,3 +9,15 @@
 	        }
 	    }
 	}
+
+Execution Time : 0.7 sec
+
+int search(int A[], int N){
+	    int res=0;
+	    for(int i = 0; i < N ; i++){
+	        res = res ^ A[i];
+        }
+	return res;
+}
+
+Execution Time : 0.4 sec
