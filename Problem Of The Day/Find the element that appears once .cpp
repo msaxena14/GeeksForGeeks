@@ -8,6 +8,7 @@
 	            return ele.first;
 	        }
 	    }
+		return -1;
 	}
 
 Execution Time : 0.7 sec
